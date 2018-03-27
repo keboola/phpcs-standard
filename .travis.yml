@@ -1,0 +1,12 @@
+sudo: required
+
+language: bash
+
+services:
+  - docker
+
+before_script:
+  - docker -v
+  - export APP_IMAGE=phpcs-standard
+  - docker build -t $APP_IMAGE .
+  - docker run $APP_IMAGE composer ci
