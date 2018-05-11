@@ -28,4 +28,5 @@
     <rule ref="SlevomatCodingStandard.TypeHints.NullableTypeForNullDefaultValue"/>
     <rule ref="SlevomatCodingStandard.Exceptions.ReferenceThrowableOnly"/>
     <rule ref="Generic.Formatting.SpaceAfterCast" />
+    <rule ref="PSR2.Files.EndFileNewline" />
 </ruleset>
