@@ -29,4 +29,9 @@
     <rule ref="SlevomatCodingStandard.Exceptions.ReferenceThrowableOnly"/>
     <rule ref="Generic.Formatting.SpaceAfterCast" />
     <rule ref="PSR2.Files.EndFileNewline" />
+    <rule ref="Generic.Files.LineLength">
+        <properties>
+            <property name="absoluteLineLimit" value="120"/>
+        </properties>
+    </rule>
 </ruleset>
