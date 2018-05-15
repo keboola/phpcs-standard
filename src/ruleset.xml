@@ -34,4 +34,18 @@
             <property name="absoluteLineLimit" value="120"/>
         </properties>
     </rule>
+    <rule ref="SlevomatCodingStandard.Commenting.ForbiddenComments">
+        <properties>
+            <property name="forbiddenCommentPatterns" type="array" value="
+				~^(.*)Constructor(.*)$~,
+				~^(.*)Created by PhpStorm.(.*)$~,
+				~^(.*)Created by JetBrains PhpStorm(.*)$~,
+				~^(.*)Created by (.*)@keboola\.com(.*)$~,
+				~^(.*)Date: (.*)$~,
+				~^(.*)Time: (.*)$~,
+				~^(.*)User: (.*)$~,
+				~^(.*)To change this template use File \| Settings \| File Templates.(.*)$~
+			"/>
+        </properties>
+    </rule>
 </ruleset>
