@@ -49,6 +49,7 @@
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.Commenting.DocSpacing">
+
         <properties>
             <property name="linesCountBeforeFirstContent" value="0"/>
             <property name="linesCountBetweenDifferentAnnotationsTypes" value="1"/>
