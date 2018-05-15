@@ -48,4 +48,11 @@
 			"/>
         </properties>
     </rule>
+    <rule ref="SlevomatCodingStandard.Commenting.DocSpacingSniff">
+        <properties>
+            <property name="linesCountBeforeFirstContent" value="0"/>
+            <property name="linesCountBetweenDifferentAnnotationsTypes" value="1"/>
+            <property name="linesCountAfterLastContent" value="0"/>
+        </properties>
+    </rule>
 </ruleset>
