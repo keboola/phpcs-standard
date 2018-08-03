@@ -48,4 +48,5 @@
 			"/>
         </properties>
     </rule>
+    <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing"/>
 </ruleset>
