@@ -63,4 +63,5 @@
         <severity>5</severity>
     </rule>
     <rule ref="Squiz.Strings.DoubleQuoteUsage.NotRequired" />
+    <rule ref="Generic.Arrays.DisallowLongArraySyntax" />
 </ruleset>
