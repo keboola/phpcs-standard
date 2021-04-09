@@ -64,4 +64,5 @@
     </rule>
     <rule ref="Squiz.Strings.DoubleQuoteUsage.NotRequired" />
     <rule ref="Generic.Arrays.DisallowLongArraySyntax" />
+    <rule ref="PSR2.ControlStructures.ElseIfDeclaration"/>
 </ruleset>
