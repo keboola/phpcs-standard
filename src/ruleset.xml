@@ -66,6 +66,7 @@
             <property name="searchAnnotations" value="true"/>
         </properties>
     </rule>
+    <rule ref="SlevomatCodingStandard.Namespaces.UseDoesNotStartWithBackslash"/>
     <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace">
         <properties>
             <property name="ignoreBlankLines" value="false" />
