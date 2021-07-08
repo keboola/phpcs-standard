@@ -59,6 +59,7 @@
             <property name="psr12Compatible" value="false"/>
         </properties>
     </rule>
+    <rule ref="SlevomatCodingStandard.Namespaces.DisallowGroupUse"/>
     <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace">
         <properties>
             <property name="ignoreBlankLines" value="false" />
