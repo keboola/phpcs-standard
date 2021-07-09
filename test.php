@@ -20,6 +20,7 @@ namespace X {
             $x = new InvalidArgumentException();
             $y = new \LogicException(\PHP_VERSION);
             echo \sprintf('%s', '1');
+            echo sprintf('%s', '1');
             $date = new \DateTimeImmutable();
             $obj = new \Ns\MySecondClass();
             $obj2 = new W\TestClass();
