@@ -55,8 +55,8 @@
     <rule ref="SlevomatCodingStandard.ControlStructures.DisallowEqualOperators"/>
     <rule ref="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses">
         <properties>
-            <property name="caseSensitive" value="true"/>
-            <property name="psr12Compatible" value="false"/>
+            <property name="caseSensitive" value="false"/>
+            <property name="psr12Compatible" value="true"/>
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.Namespaces.DisallowGroupUse"/>
