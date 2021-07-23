@@ -12,5 +12,8 @@
             "@composer validate --no-check-all --strict",
             "xmllint -schema /tmp/phpcs.xsd src/ruleset.xml --noout"
         ]
+    },
+    "config": {
+        "lock": false
     }
 }
