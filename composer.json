@@ -10,7 +10,8 @@
     "scripts": {
         "ci": [
             "@composer validate --no-check-all --strict",
-            "xmllint -schema /tmp/phpcs.xsd src/ruleset.xml --noout"
+            "xmllint -schema /tmp/phpcs.xsd src/ruleset.xml --noout",
+            "phpcs  --standard=src/ruleset.xml -e"
         ]
     },
     "config": {
