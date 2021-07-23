@@ -30,7 +30,7 @@
     <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
         <properties>
             <property name="spacesCountAroundEqualsSign" value="0"/>
-            <property name="linesCountBeforeDeclare" value="2"/>
+            <property name="linesCountBeforeDeclare" value="1"/>
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.Exceptions.DeadCatch"/>
