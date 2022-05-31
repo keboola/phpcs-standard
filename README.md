@@ -76,3 +76,7 @@ Then add the sniff to excludes in your `phpcs.xml`
 Repeat until there are no violations. 
 
 You may take note of fixable violations and separate them visually in the file, possibly with `<!-- Fixable violations below -->`. That way anyone can remove one exclusion at a time, let `phpcbf` fix the violation, review the result and submit a PR with a fix. This will improve the chances of fixing the violations in the future. 
+
+## License
+
+MIT licensed, see [LICENSE](./LICENSE) file.
