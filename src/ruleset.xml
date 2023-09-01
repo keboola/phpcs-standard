@@ -98,4 +98,7 @@
     <rule ref="PSR2.ControlStructures.ElseIfDeclaration" >
         <type>error</type>
     </rule>
+    <rule ref="SlevomatCodingStandard.Functions.RequireTrailingCommaInCall" />
+    <rule ref="SlevomatCodingStandard.Functions.RequireTrailingCommaInDeclaration" />
+    <rule ref="SlevomatCodingStandard.Functions.RequireTrailingCommaInClosureUse" />
 </ruleset>
