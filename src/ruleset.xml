@@ -16,17 +16,10 @@
     </rule>
     <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHint">
         <properties>
-            <property name="enableNativeTypeHint" value="true" />
             <property name="traversableTypeHints" type="array" value="" />
         </properties>
     </rule>
-    <rule ref="SlevomatCodingStandard.Commenting.UselessFunctionDocComment">
-        <properties>
-            <property name="usefulAnnotations" type="array" value="
-                @dataProvider
-            "/>
-        </properties>
-    </rule>
+    <rule ref="SlevomatCodingStandard.Commenting.UselessFunctionDocComment" />
     <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
         <properties>
             <property name="spacesCountAroundEqualsSign" value="0"/>
