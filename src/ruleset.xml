@@ -5,18 +5,21 @@
     <config name="installed_paths" value="../../slevomat/coding-standard"/><!-- relative path from PHPCS source location -->
     <rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHint">
         <properties>
-            <property name="traversableTypeHints" type="array" value="" />
+            <property name="traversableTypeHints" type="array">
+            </property>
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.TypeHints.PropertyTypeHint">
         <properties>
             <property name="enableNativeTypeHint" value="true" />
-            <property name="traversableTypeHints" type="array" value="" />
+            <property name="traversableTypeHints" type="array">
+            </property>
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHint">
         <properties>
-            <property name="traversableTypeHints" type="array" value="" />
+            <property name="traversableTypeHints" type="array">
+            </property>
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.Commenting.UselessFunctionDocComment" />
@@ -40,16 +43,16 @@
     </rule>
     <rule ref="SlevomatCodingStandard.Commenting.ForbiddenComments">
         <properties>
-            <property name="forbiddenCommentPatterns" type="array" value="
-				~^(.*)Constructor(.*)$~,
-				~^(.*)Created by PhpStorm.(.*)$~,
-				~^(.*)Created by JetBrains PhpStorm(.*)$~,
-				~^(.*)Created by (.*)@keboola\.com(.*)$~,
-				~^(.*)Date: (.*)$~,
-				~^(.*)Time: (.*)$~,
-				~^(.*)User: (.*)$~,
-				~^(.*)To change this template use File \| Settings \| File Templates.(.*)$~
-			"/>
+            <property name="forbiddenCommentPatterns" type="array">
+				<element value="~^(.*)Constructor(.*)$~" />
+				<element value="~^(.*)Created by PhpStorm.(.*)$~" />
+				<element value="~^(.*)Created by JetBrains PhpStorm(.*)$~" />
+				<element value="~^(.*)Created by (.*)@keboola\.com(.*)$~" />
+				<element value="~^(.*)Date: (.*)$~" />
+				<element value="~^(.*)Time: (.*)$~" />
+				<element value="~^(.*)User: (.*)$~" />
+				<element value="~^(.*)To change this template use File \| Settings \| File Templates.(.*)$~" />
+            </property>
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing"/>
