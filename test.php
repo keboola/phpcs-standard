@@ -8,6 +8,7 @@ docker run -it -v %CD%:/data php:7.4 bash
 vendor/bin/phpcs --standard=src/ruleset.xml test.php
 
 */
+
 namespace X {
 
     use InvalidArgumentException;
