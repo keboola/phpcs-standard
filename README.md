@@ -6,7 +6,7 @@
 * minor versions may only update underlying coding standards with bugfixes
 * major versions may introduce new sniffs, thus causing previously good builds to fail
 
-So you should be usually fine with composer's default `^major.minor`
+So you should usually be fine with composer's default `^major.minor`
 
 ## Installation
 
@@ -21,20 +21,33 @@ composer require --dev keboola/coding-standard
 vendor/bin/phpcs src tests
 ```
 
-* add phpcs script to composer.json
+* create `ecs.php` in your project root directory with the following content:
+```php
+<?php
+
+return ECSConfig::configure()->withSets([
+    __DIR__ . 'vendor/keboola/coding-standard/src/ruleset.php',
+]);
+```
+
+* command `vendor/bin/ecs src/` will now run the checks
+* command `vendor/bin/ecs --fix src/` will now run the checks with automatic fixes
+
+* add phpcs & ecs script to composer.json
 
 ```
 {
 ...
     "scripts": {
-        "phpcs": "phpcs -n --extensions=php ."
+        "phpcs": "phpcs -n --extensions=php .",
+        "ecs": "ecs"
     }
 }
 ```
 
 ## Usage
 
-`composer phpcs`
+`composer phpcs OR composer ecs`
 
 ### Using standard on legacy projects
 
